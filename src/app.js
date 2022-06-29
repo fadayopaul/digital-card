@@ -3,6 +3,7 @@ import ProfileInfo from "./component/profile-info";
 import ContactInfo from "./component/contact-info";
 import About from "./component/about";
 import Footer from "./component/footer";
+import "./index.css";
 
 export default function App() {
   return (
