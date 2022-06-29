@@ -64,6 +64,16 @@ body {
   text-align: center;
   cursor: pointer;
 }
+.website a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+/* mouse over link */
+.website a:hover {
+  color: #ac5353;
+}
 
 .contact-info {
   display: flex;
@@ -71,17 +81,9 @@ body {
   text-align: center;
   margin-bottom: 33px;
 }
-.contact-info > button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border-radius: 5px;
-  border: none;
-  margin: 0 8px;
-  width: 115px;
-  height: 34px;
-  cursor: pointer;
+
+.contact-info a {
+  text-decoration: none;
 }
 
 i {
@@ -94,11 +96,31 @@ i {
 .email {
   color: #374151;
   background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  margin: 0 8px;
+  width: 115px;
+  height: 34px;
+  cursor: pointer;
 }
 
 .linkedin {
   background: #5093e2;
   color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  margin: 0 8px;
+  width: 115px;
+  height: 34px;
+  cursor: pointer;
 }
 
 .about {
