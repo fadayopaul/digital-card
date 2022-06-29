@@ -10,19 +10,48 @@ export default function Footer() {
   return (
     <footer className="footer">
       <span className="twitter-icon">
-        <FaTwitterSquare />
+        {" "}
+        <a
+          href="http://twitter.com/fadayopaul"
+          to="route"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaTwitterSquare />
+        </a>
       </span>
 
       <span className="facebook-icon">
-        <FaFacebookSquare />
+        <a
+          href="http://facebook.com/fadayo"
+          to="route"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaFacebookSquare />
+        </a>
       </span>
 
       <span className="instagram-icon">
-        <FaInstagramSquare />
+        <a
+          href="http://instagram.com/paulfadayo"
+          to="route"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaInstagramSquare />
+        </a>
       </span>
 
       <span className="github-icon">
-        <FaGithubSquare />
+        <a
+          href="http://github.com/fadayopaul"
+          to="route"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithubSquare />
+        </a>
       </span>
     </footer>
   );

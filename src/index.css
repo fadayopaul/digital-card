@@ -93,9 +93,8 @@ i {
   font-size: 16px;
 }
 
-.email {
-  color: #374151;
-  background: #fff;
+.email,
+.linkedin {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,19 +107,14 @@ i {
   cursor: pointer;
 }
 
+.email {
+  color: #374151;
+  background: #fff;
+}
+
 .linkedin {
   background: #5093e2;
   color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border-radius: 5px;
-  border: none;
-  margin: 0 8px;
-  width: 115px;
-  height: 34px;
-  cursor: pointer;
 }
 
 .about {
@@ -159,10 +153,12 @@ i {
   border-radius: 0 0 20px 20px;
 }
 
-footer > span {
+footer > span,
+footer a {
   padding: 20px 8px;
   font-size: 30px;
   color: #918e9b;
   cursor: pointer;
 }
+
 /* end of footer */
